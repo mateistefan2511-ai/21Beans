@@ -1,0 +1,209 @@
+{
+  "_comment": "SURSA DE ADEVĂR pentru meniul 21 Beans. Extras din 21_Beans_Menu.pdf. După orice modificare rulează: node build/build-menu.mjs",
+  "currency": "RON",
+  "currencyLabel": "lei",
+  "sections": [
+    {
+      "id": "cafea",
+      "title": "Cafea",
+      "tagline": "Espresso, cu lapte, rece sau cald — cafea de specialitate, pregătită cu grijă.",
+      "groups": [
+        {
+          "title": "Espresso",
+          "items": [
+            { "name": "Espresso", "price": 12 },
+            { "name": "Espresso Double", "price": 15 },
+            { "name": "Americano", "price": 15 },
+            { "name": "Espresso Tonic Ice", "price": 24 },
+            { "name": "Espresso Cold Brew Tonic", "price": 25 },
+            { "name": "Red Cold Brew", "price": 35, "badge": "Nou", "footnote": "*" }
+          ]
+        },
+        {
+          "title": "Cu lapte",
+          "items": [
+            { "name": "Cortado", "variant": "Single Shot / Double Shot", "priceText": "15 / 18" },
+            { "name": "Flat White", "price": 21 },
+            { "name": "Cappuccino", "price": 19 },
+            { "name": "Latte", "price": 20 },
+            { "name": "Cold Brew Latte", "price": 22 },
+            { "name": "Ciocolată caldă cu cacao de specialitate", "price": 21 }
+          ]
+        },
+        {
+          "title": "Signature",
+          "items": [
+            { "name": "Vanilla Ice Latte", "price": 25 },
+            { "name": "Banana Syrup Latte", "price": 25 },
+            { "name": "Honey Ice Latte", "price": 25 },
+            { "name": "Cardamom Syrup Latte", "price": 25 },
+            { "name": "Cinnamon Syrup Cappuccino", "price": 21 }
+          ],
+          "aside": {
+            "text": "Dacă ai poftă de ceva diferit, spune-ne ce arome îți plac. Cu selecția noastră de siropuri și lichioruri, putem crea aproape orice băutură pe bază de cafea, special pentru tine.",
+            "meta": "Începând de la 25 lei"
+          }
+        }
+      ],
+      "notes": [
+        "Toate băuturile espresso pot fi preparate decaf.",
+        "Lapte vegetal: +3 lei.",
+        "Orice latte poate fi preparat rece, cu gheață, sau cald.",
+        "Extra aromă — sirop: începând cu 3 lei."
+      ]
+    },
+    {
+      "id": "bauturi-reci",
+      "title": "Băuturi reci & Mocktails",
+      "tagline": "Sucuri naturale, limonade, kombucha și mocktails unice.",
+      "groups": [
+        {
+          "title": "Fresh",
+          "items": [
+            { "name": "Suc de ananas", "price": 23 },
+            { "name": "Suc de portocale", "price": 21 },
+            { "name": "Suc de mandarine", "price": 21 },
+            { "name": "Suc de mere", "price": 19 },
+            { "name": "Suc de pere", "price": 21 },
+            { "name": "Suc de mango și mere", "price": 21 },
+            { "name": "Limonadă clasică", "price": 20 },
+            { "name": "Limonadă cu zmeură și agave", "price": 21 }
+          ]
+        },
+        {
+          "title": "Mocktails",
+          "items": [
+            {
+              "name": "Mocktail-ul săptămânii",
+              "price": 45,
+              "description": "În fiecare săptămână, te așteaptă o surpriză nouă în pahar. Întreabă barmanul ce am pregătit pentru tine săptămâna aceasta!"
+            }
+          ]
+        },
+        {
+          "title": "Bere",
+          "items": [
+            { "name": "Bere fără alcool — Gymbeer", "price": 18 },
+            { "name": "Bere artizanală", "variant": "începând de la", "priceText": "24" }
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "ceai-cacao",
+      "title": "Ceai & Cacao",
+      "tagline": "Arome florale, matcha, hojicha și cacao de specialitate.",
+      "groups": [
+        {
+          "title": "Ceai",
+          "items": [
+            { "name": "Ceai de fructe", "price": 16 },
+            { "name": "Ceai floral", "price": 16 },
+            { "name": "Ceai verde", "price": 19 },
+            { "name": "Ceai Matcha", "price": 19 },
+            { "name": "Ceai de fructe pentru copii", "price": 15 }
+          ]
+        },
+        {
+          "title": "Cu lapte",
+          "items": [
+            { "name": "Matcha Latte", "price": 25 },
+            { "name": "Hojicha Latte", "price": 22, "description": "Ceai verde copt, cu gust de alune/nuci." },
+            { "name": "Ceai negru", "price": 19 }
+          ]
+        },
+        {
+          "title": "Signature",
+          "items": [
+            { "name": "Ciocolată caldă cu lapte infuzat cu lavandă", "price": 28 },
+            { "name": "Ceai de cacao", "variant": "cacao de specialitate", "price": 18 },
+            { "name": "Cacao brew", "variant": "cacao de specialitate", "price": 18 }
+          ],
+          "aside": {
+            "text": "Fructe, flori, matcha sau cacao — alege ritualul potrivit pentru momentul tău.",
+            "meta": "Ceaiuri alese pentru pauze lente"
+          }
+        }
+      ],
+      "notes": [
+        "Lapte vegetal: +3 lei.",
+        "Extra aromă — sirop: începând cu 3 lei."
+      ]
+    },
+    {
+      "id": "patiserie",
+      "title": "Patiserie",
+      "tagline": "Produse dulci și sărate pentru dimineți cu spor sau pauze de prânz rapide.",
+      "groups": [
+        {
+          "title": "Patiserie",
+          "items": [
+            {
+              "name": "Vitrina zilei",
+              "variant": "începând de la",
+              "priceText": "12",
+              "description": "Descoperă ce bunătăți avem astăzi în vitrină!"
+            }
+          ]
+        },
+        {
+          "title": "Signature",
+          "items": [
+            {
+              "name": "21Boabe",
+              "variant": "prăjitură cu ciocolată și vișine",
+              "price": 18,
+              "footnote": "*"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "* În limita stocului disponibil (întrebați personalul)."
+      ]
+    }
+  ],
+  "allergens": {
+    "title": "Alergeni",
+    "intro": "Produsele noastre pot conține sau pot intra în contact cu:",
+    "list": [
+      "Lapte / lactoză",
+      "Gluten",
+      "Ouă",
+      "Soia",
+      "Fructe cu coajă lemnoasă",
+      "Fistic",
+      "Semințe",
+      "Pește",
+      "Cacao",
+      "Sulfiți",
+      "Miere / produse apicole",
+      "Cofeină / teină"
+    ],
+    "note": "În cazul alergiilor severe sau al intoleranțelor alimentare, vă rugăm să informați personalul înainte de plasarea comenzii, pentru a vă putea oferi detalii suplimentare despre produse și modul de preparare."
+  },
+  "nutrition": {
+    "title": "Valori nutriționale",
+    "intro": "Listă informativă — valorile sunt orientative și pot varia în funcție de rețetă.",
+    "rows": [
+      ["Espresso", "2–5 kcal"],
+      ["Americano", "5–10 kcal"],
+      ["Latte", "130–220 kcal"],
+      ["Cappuccino", "90–140 kcal"],
+      ["Flat White", "100–160 kcal"],
+      ["Ciocolată caldă", "220–380 kcal"],
+      ["Signature latte cu sirop", "200–330 kcal"],
+      ["Matcha Latte", "130–230 kcal"],
+      ["Matcha Affogato", "220–380 kcal"],
+      ["Mini croissant", "200–250 kcal"],
+      ["Croissant cu fistic", "230–320 kcal"],
+      ["Banana Bread", "230–330 kcal"],
+      ["Salam de biscuiți", "280–420 kcal"],
+      ["Mic dejun cu iaurt și granola", "280–450 kcal"],
+      ["Suc natural", "90–150 kcal"],
+      ["Kombucha", "30–90 kcal"],
+      ["Mocktails", "120–250 kcal"]
+    ]
+  }
+}
